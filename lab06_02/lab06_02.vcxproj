@@ -115,6 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="generatorACG.cpp" />
+    <ClCompile Include="generatorLCG.cpp" />
+    <ClCompile Include="libFiles.cpp" />
+    <ClCompile Include="Podwika_Grzegorz_Program_02.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="generatorACG.h" />
+    <ClInclude Include="generatorLCG.h" />
+    <ClInclude Include="libFiles.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
